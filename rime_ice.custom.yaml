@@ -1,0 +1,10 @@
+patch:
+  # 开启自动调频和用户词典（你已经做了）
+  "translator/enable_user_dict": true
+  # 下面这两行建议也加上，增加记忆权重
+  "translator/enable_sentence": true
+  "translator/initial_quality": 1000
+  
+  # 如果你想让 Windows 和 macOS 的同步文件夹名字区分开，
+  # 可以在 installation.yaml 里的 sync_dir 之后，
+  # 确保两台机器的 installation_id 不一样（一个是 mac, 一个是 win）
